@@ -16,7 +16,7 @@ pipeline {
              echo 'sending email'  
              emailext body: 'Jenkins Notifications',
                       subject: 'Jenkins Task2 Notification',
-                      to: 'aayushkumar3108@gmail.com 500069079@stu.upes.ac.ins'
+                      to: 'aayushkumar3108@gmail.com 500069079@stu.upes.ac.in'
          } 
     }
 }
